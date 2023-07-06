@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+#headerNavigation{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    padding: 10px;
+    background-color: #37988e;
+    overflow: hidden;
+}
+
+#navigation{
+    display: flex;
+    gap: 10px;
+    font-family: "montserrat";
+    list-style: none;
+}
+
+.logo{
+    cursor: pointer;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+#navigation ul{
+    background:#37988e;
+    padding: 0 20px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+}
+
+#navigation li{
+    float: left;
+}
+
+#navigation li:hover a{
+    color:#000;
+}
+
+#navigation li a{
+    display: flex;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s ease 0s;
+}
+
+#headerTitle{
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat';
+    font-weight: bolder;
+}
+
+#judul_utama{
+    text-align: center;
+    color: rgb(77, 70, 62);
+}
+
+#subtitle{
+    color: rgb(44, 44, 46);
+    opacity: 50%;
+    text-align: center;
+    line-height: 0%;
+    font-size: 20px;
+    text
+}
+
+/* #Mark: Call Us section */
+
+#callUs{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-family: "montserrat";
+}
+
+h6{
+    font-family: "montserrat";
+    font-size: 12px;
+}
+
+#article{
+    flex-basis: 60%;
+    flex-grow: 0;
+    margin-left: 70px;
+}
+
+#article .slider{
+    width: 95%;
+    height: 60%;
+    border-radius: 8px;
+    display: block;
+    margin: auto auto;
+}
+
+.box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+#keterangan{
+    text-align: center;
+    margin-right: 100px;
+}
+
+.cont .tag{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.cont .tag .box .icon{
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+    background-color: darkgrey;
+}
+
+.cont .tag .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    flex-direction: column;
+    font-family: "poppins";
+    line-height: 0px;
+}
+
+#form{ 
+    flex-basis: 40%;
+    flex-grow: 0;
+    margin: auto;
+    background-color: grey;
+    border-radius: 5px;
+    border-style: inset;
+    height: 590px;
+    width: 280px;
+}
+
+#masukan{
+    margin: 8px 0px;
+}
+
+#masukan input{
+    border-radius: 6px;
+    width: 80%;
+    size: 100px;
+}
+
+#masukan input[type=text]{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 5px;
+}
+
+#masukan select{
+    border-radius: 6px;
+    padding: 12px;
+}
+
+#tombol{
+    border-radius: 5px;
+    padding: 12px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 8px 0px;
+    color: white;
+    background-color: rgb(16, 137, 158);
+    border: 1px solid black;
+}
+
+#tombol:hover{
+    background: rgb(0, 0, 0);
+    color: rgb(250, 250, 250);
+}
+
+#benefit{
+    margin-left: 64px;
+}
+
+#benefit p{
+    font-family: "montserrat";
+    font-weight: bold;
+    line-height: 30px;
+}
+
+#benefit ol{
+    font-family: "montserrat";
+    line-height: 30px;
+}
+
+/* #Mark: Packages section */
+
+#packagesTitle{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 60px;
+    background-color: #37988e;
+    font-family: "montserrat";
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.container {
+    margin-right: 20vh;
+    margin-left: 10vh;
+    margin-bottom: 15vh;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    padding: 20px;
+  }
+   
+.container .top-left{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    grid-column: 1/2;
+}
+
+.container .top-left .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.container .top-left .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+    background-color: darkgrey;
+}
+
+.container .top-left .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    flex-direction: column;
+    font-family: "poppins";
+}
+
+.container .top-center{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    grid-column: 2/3;
+}
+
+.container .top-center .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.container .top-center .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+    background-color: darkgrey;
+}
+
+.container .top-center .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    flex-direction: column;
+    font-family: "poppins";
+}
+
+.container .top-right{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    grid-column: 3/4;
+}
+
+.container .top-right .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.container .top-right .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+    background-color: darkgrey;
+}
+
+.container .top-right .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    flex-direction: column;
+    font-family: "poppins";
+}
+
+.container .bottom-left{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    grid-column: 1/2;
+}
+
+.container .bottom-left .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.container .bottom-left .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+    background-color: darkgrey;
+}
+
+.container .bottom-left .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    flex-direction: column;
+    font-family: "poppins";
+}
+
+.container .bottom-center{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    grid-column: 2/3;
+}
+
+.container .bottom-center .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.container .bottom-center .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+    background-color: darkgrey;
+}
+
+.container .bottom-center .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    flex-direction: column;
+    font-family: "poppins";
+}
+
+.container .bottom-right{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    grid-column: 3/4;
+}
+
+.container .bottom-right .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.container .bottom-right .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+    background-color: darkgrey;
+}
+
+.container .bottom-right .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    flex-direction: column;
+    font-family: "poppins";
+}
+
+/* section: footer */
+.closing h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: "montserrat";
+}
+
+.closing p{
+    text-align: center;
+    margin: 0px 250px;
+    font-family: "montserrat";
+    font-size: 15px;
+    line-height: 25px;
+}
+
+#call{
+    margin-top: 40px;
+    margin-bottom: 100px;
+    margin-left: 550px;
+    padding: 10px;
+    width: 210px;
+    color: #fff;
+    background-color: #000;
+    font-weight: bolder;
+}
